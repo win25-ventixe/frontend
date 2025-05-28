@@ -8,7 +8,7 @@ const Nav = () => {
         <img src="./logo.svg" alt="" />
       </Link>
       <div className="navlink-group">
-        <NavLink to="/bookings" className="navlink">
+        {/* <NavLink to="/bookings" className="navlink">
           <svg
             width="18"
             height="18"
@@ -37,7 +37,7 @@ const Nav = () => {
             />
           </svg>
           <p>Invoices</p>
-        </NavLink>
+        </NavLink> */}
 
         <NavLink to="/" className="navlink">
           <svg
